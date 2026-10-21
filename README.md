@@ -81,9 +81,6 @@ npm run quote -- --client dental-clinic --lang en
 
 # Dental clinic client, Italian
 npm run quote -- --client dental-clinic --lang it
-
-# Localized output for another configured locale (Albanian in this example)
-npm run quote -- --client dental-clinic --lang sq
 ```
 
 With `ANTHROPIC_API_KEY` set in `.env`, the CLI automatically loads it and uses `ClaudeIntakeMapper` (live Claude).
